@@ -1,6 +1,6 @@
 /* navigation custom styling */
 .customNavBg {
-    background-color: #dace2f !important;
+    background-color: black !important;
     padding-top: 0 !important;
     object-fit: cover;
 }
@@ -42,7 +42,7 @@
 /*footer*/
 footer {
     padding: 10px;
-    background: #e4d01f;
+    background: black;
     position: fixed;
     width: 100%;
     bottom: 0;

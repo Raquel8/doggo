@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Home Page</title>
     <!--CSS File-->
-    <link rel="stylesheet" href="assets/css/resume.css">
-    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="resume.css">
     <!--Bootstrap Stylesheet-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -54,7 +54,7 @@
                         aria-expanded="false">Contact</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="mailto: lariosr29@hotmail.com">Email</a>
-                        <a class="dropdown-item" href="https://github.com/mcramIT" target="_blank">Github page</a>
+                        <a class="dropdown-item" href="https://github.com/raquel8" target="_blank">Github page</a>
                         <a class="dropdown-item" href="https://raquel8.github.io" target="_blank">VCD 5d website</a>
                     </div>
                 </li>
@@ -74,226 +74,343 @@
 
 
     <!--Resumae-->
-    <div class="container resume">
-        <div class="avataContainer">
-            <div class="row">
-                <div class="col-12">
-                    <img src="assets/images/avtr.jpg" class="avatarImage" />
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- favicon -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    
+        <title>Sennior Care Final</title>
+        <!-- local style sheet -->
+        <link rel="stylesheet" href="assets/css/defaultStyle.css" type="text/css" />
+        <link rel="stylesheet" href="assets/css/resume.css" type="text/css" />
+        <!-- bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/938a18ead6.js" crossorigin="anonymous"></script>
+    
+    </head>
+    
+    <body>
+        <!-- resssume section -->
+        <div class="container customContainer">
+            <section class="topSection">
+                <div class="row avataContainer">
+                    <div class="col-12">
+                        <a href="https://vcd5dcpp.github.io/" target="_blank"><img src="assets/images/avata.jpg" class="avataImage" /></a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 headline">
-                <h1>
-                    Hi,
-                    <br>
-                    My name is Raquel
-        
-                </h1>
-            </div>
-        </div>
-        <br>
-        <section class="bottomSection">
-            <div class="row">
-                <!--Lefthand side-->
-                <div class="col-12 col-md-7 leftSubContainer">
-                    <div class="aboutBox">
-                        <h2>// About Me</h2>
-                        <p>I am an UX/UI developer with professional background in Graphic Design.
+    
+                <div class="row headlineTitle">
+                    <div class="col-12">
+                        <h1>
+                            HI,
                             <br>
-                            Strong focus om front-end development and iOS app development in Swift.
-                        </p>
+                            <span>My name is Raquel Larios</span>
+                        </h1>
+    
                     </div>
-                    <!--Education-->
-                    <div class="education">
-                        <h2>// Education</h2>
-                        <div class="row">
-                            <div class="col-3">
-                                <p>2018</p>
+                </div>
+            </section>
+    
+            <hr class="firstHr" />
+    
+            <section class="middleSection">
+                <div class="row">
+                    <!-- left handside -->
+                    <div class="col-12 col-md-7 leftSubContainer">
+                        <!-- about me  -->
+                        <div class="aboutSection">
+                            <h5 class="sectionTitle">// About Me</h5>
+                            <p>
+                                I am an UX/UI developer with professional background in Graphic Deisgn.
+                                <br>
+                                Strong focus on front-end developemnt and iOS app development in Swift and hyprid apps
+                                development in React Native
+                            </p>
+                        </div>
+    
+                        <!-- education -->
+                        <div class="education">
+                            <h5 class="sectionTitle">// Education</h5>
+                            <div class="row subSectionBox">
+                                <div class="col-3">
+                                    <p>2018</p>
+                                </div>
+    
+                                <div class="col-9 eduDesBox">
+                                    <p><b>Google</b></p>
+                                    <p>UX/UI developemnt</p>
+                                </div>
                             </div>
-                            <div class="col-9">
-                                <p><b>Google</b></p>
-                                <p>UX/UI development</p>
+                        </div>
+    
+                        <!-- experience  -->
+                        <div class="experience">
+                            <h5 class="sectionTitle">// experience</h5>
+                            <div class="subSectionBox">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <p><b>Thoughtbot</b></p>
+                                        <p class="year">2017-2018</p>
+                                    </div>
+    
+                                    <div class="col-9">
+                                        <p class="jobTitle">UX Designer</p>
+                                        <p class="description">Creating amazing UX/UI experiences for clients around the
+                                            world</p>
+                                    </div>
+                                </div>
+    
+                                <hr />
+    
+                                <div class="row">
+                                    <div class="col-3">
+                                        <p><b>Apple Store</b></p>
+                                        <p class="year">2015-2017</p>
+                                    </div>
+    
+                                    <div class="col-9">
+                                        <p class="jobTitle">Genius Bar</p>
+                                        <p class="description">Fixed a variety of apple device issues for custom</p>
+                                    </div>
+                                </div>
+    
+                                <hr />
+    
+                                <div class="row">
+                                    <div class="col-3">
+                                        <p><b>Whole Foods</b></p>
+                                        <p class="year">2013-2015</p>
+                                    </div>
+    
+                                    <div class="col-9">
+                                        <p class="jobTitle">Cashier</p>
+                                        <p class="description">Rang up customers</p>
+                                    </div>
+                                </div>
+    
+                                <hr />
+    
+                                <div class="row">
+                                    <div class="col-3">
+                                        <p><b>Starbucks</b></p>
+                                        <p class="year">2010-2013</p>
+                                    </div>
+    
+                                    <div class="col-9 ">
+                                        <p class="jobTitle">Barista</p>
+                                        <p class="description">Make some awesome lattes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- fun fact -->
+                        <div class="funFactSection">
+                            <h5 class="sectionTitle">// fun facts</h5>
+                            <div class="row funFact">
+                                <div class="col-12 col-md-6">
+                                    <p>
+                                        <span><i class="fas fa-guitar"></i></span>
+                                        I like to watch movies
+                                    </p>
+                                </div>
+                                <div class="col-12 d-md-none">
+                                    <hr />
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <p>
+                                        <span><i class="fas fa-running"></i></span>
+                                        I can run really fast
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!--Experience-->
-                    <div class="experience">
-
-                        <h2>// Experience</h2>
+    
+                    <!-- right handside -->
+                    <div class="col-12 col-md-5 rightSubContainer">
+                        <!-- contact -->
+                        <h5 class="sectionTitle">// Contact</h5>
+                        <div class="row subSectionBox contact">
+                            <div class="col">
+                                <a href="tel:(626) 559-4462" class="btn" data-toggle="tooltip" data-placement="top"
+                                    title="(626) 559-4462">
+                                    <p>
+                                        <span><i class="fas fa-phone-square"></i></span>
+                                        Phone
+                                    </p>
+                                </a>
+                            </div>
+    
+                            <div class="col">
+                                <a href="mailto: lariosr29@hotmail.com" class="btn" data-toggle="tooltip" data-placement="top"
+                                    title="lariosr29@hotmail.com">
+                                    <p>
+                                        <span><i class="fas fa-envelope-square"></i></span>
+                                        Email
+                                    </p>
+                                </a>
+                            </div>
+    
+                            <div class="col">
+                                <a href="https://github.com/vcd5dCpp" target="_blank" class="btn" data-toggle="tooltip"
+                                    data-placement="top" title="https://github.com/vcd5dCpp">
+                                    <p>
+                                        <span><i class="fab fa-github-square"></i></span> Github
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <!-- skills -->
                         <div class="row">
-                            <div class="col-3">
-                                <p>Thoughtbot</p>
-                                <p>2017-2018</p>
+                            <div class="col-12 col-md-7 technicalSkills">
+                                <h5 class="sectionTitle">// Technical Skills</h5>
+                                <div class="row subSectionBox">
+                                    <div class="col-6">
+                                        <p>UX/UI</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>Adobe XD</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>Adobe Illustrator</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>Adobe Photoshop</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>Adobe InDesign</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>Git Commands</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>bootstrap</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-9">
-                                <p>UX Designer</p>
-                                <p>Creating amazing UX/UI experiences for clients around the world.</p>
+    
+                            <div class="col-md-5 softSkills">
+                                <h5 class="sectionTitle">// Soft Skills</h5>
+                                <div class="subSectionBox">
+                                    <p>Organizing</p>
+                                    <p>Time Management</p>
+                                    <p>Public Speaking</p>
+                                    <p>Team Work</p>
+                                    <p>Fast Learner</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-3">
-                                <p>Apple Store</p>
-                                <p>2015-2017</p>
+    
+                        <!-- hobiies -->
+                        <div class=" hobbies">
+                            <h5 class="sectionTitle">// hobbies</h5>
+                            <div class="row subSectionBox">
+                                <div class="col-6 col-md-4">
+                                    <p>Cooking</p>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <p>Drawing</p>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <p>Reading</p>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <p>Playing Videogames</p>
+                                </div>
                             </div>
-                            <div class="col-9">
-                                <p>Genius Bar</p>
-                                <p>Fixed a variety of apple device issues for customers.</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-3">
-                                <p>Whole Foods</p>
-                                <p>2013-2015</p>
-                            </div>
-                            <div class="col-9">
-                                <p>Cashier</p>
-                                <p>Rang up customers</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-3">
-                            <p>Starbucks</p>
-                            <p>2010-2013</p>
-                        </div>
-                        <div class="col-9">
-                            <p>Barista</p>
-                            <p>Served and rang up customers</p>
                         </div>
                     </div>
                 </div>
-
-                <!--Righthand side-->
-                <div class="col-12 col-md-5 rightSubContainer">
-                    <!--Contacts-->
-                    <div class="">
-                        <h2>// Contacts</h2>
-                        <div class="row">
-                            <div class="col">
-                                <i class="fas fa-mobile-alt"></i>
-                            </div>
-                            <div class="col">
-                                <i class="far fa-paper-plane"></i>
-                            </div>
-                            <div class="col">
-                                <i class="fab fa-github-alt"></i>
-                            </div>
-                        </div>
+            </section>
+    
+            <section class="bottomSection">
+                <h5 class="sectionTitle">// Projects</h5>
+                <div class="row projectSection">
+                    <div class="col-md-3">
+                        <a href="index.html"><p>Doggo</p></a>
                     </div>
-                    <!--Skills-->
-                    <div class="row">
-                        <div class="col tech">
-                            <h2>// Technical Skills</h2>
-                            <div class="row">
-                                <div class="col-6">
-                                    <p>UX/UI</p>
-                                </div>
-                                <div class="col-6">
-                                    <p>Adobe XD</p>
-                                </div>
-                                <div class="col-6">
-                                    <p>Adobe Illustrator</p>
-                                </div>
-                                <div class="col-6">
-                                    <p>Adobe Photoshop</p>
-                                </div>
-                                <div class="col-6">
-                                    <p>Adobe InDesign</p>
-                                </div>
-                                <div class="col-6">
-                                    <p>HTML</p>
-                                </div>
-                                <div class="col-6">
-                                    <p>CSS</p>
-                                </div>
-                                <div class="col-6">
-                                    <p>Git Commands</p>
-                                </div>
-                                <div class="col-6">
-                                    <p>bootstrap</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col soft">
-                            <h2>// Soft Skills</h2>
-                            <div class="col-6">
-                                <p>Organizing</p>
-                            </div>
-                            <div class="col-6">
-                                <p>Time Management</p>
-                            </div>
-                            <div class="col-6">
-                                <p>Public Speaking</p>
-                            </div>
-                            <div class="col-6">
-                                <p>Teamwork</p>
-                            </div>
-                            <div class="col-6">
-                                <p>Fast Learner</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Hobbies-->
-                    <div>
-                        <h2>// Hobbies</h2>
-                        <div class="row">
-                            <div class="col-4">
-                                <p>Crying</p>
-                            </div>
-                            <div class="col-4">
-                                <p>COmplaning</p>
-                            </div>
-                            <div class="col-4">
-                                <p>Craft Beer</p>
-                            </div>
-                            <div class="col-4">
-                                <p>Dancing</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Fun Facts-->
-                </div>
-                <br>
-            </div>
-        </section>
-        <div>
-            <!-- fun fact -->
-            <h2>// Fun Facts</h2>
-            <div>
-                <div class="row funFact">
-                    <div class="col-12">
-                        <p>
-                            <span><i class="fas fa-guitar"></i></span>
-                            I play guitar in a all girl punk band
-                        </p>
-                    </div>
-                    <div class="col-12 d-none d-sm-block">
-                        <hr />
-                    </div>
-                    <div class="col-12">
-                        <p>
-                            <span><i class="fas fa-running"></i></span>
-                            I can run really fast
-                        </p>
+    
+                    <div class="col-md-9">
+                        <ul>
+                            <li>
+                                <span><i class="fas fa-hand-point-right"></i></span>
+                                Create Sitemap for brainstorm web page and navigation flow
+                            </li>
+                            <li>
+                                <span><i class="fas fa-hand-point-right"></i></span>
+                                Create low-fi wireframe for resposive structure
+                            </li>
+                            <li>
+                                <span><i class="fas fa-hand-point-right"></i></span>
+                                Create UI Style Guide/Design System to maintain a consisten identity throughout the
+                                website
+                            </li>
+                            <li>
+                                <span><i class="fas fa-hand-point-right"></i></span>
+                                Create User Persona to target right audience
+                            </li>
+                            <li>
+                                <span><i class="fas fa-hand-point-right"></i></span>
+                                Create hi-fi interactive & responsive prototypes using Adobe XD
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
+    
+                <hr />
+    
+                <div class="row projectSection">
+                    <div class="col-md-3">
+                        <p>Polar Puff</p>
+                    </div>
+    
+                    <div class="col-md-9">
+                        <ul>
+                            <li>
+                                <span><i class="fas fa-hand-point-right"></i></span>
+                                Redesining posters for the ice cream store
+                            </li>
+                            <li>
+                                <span><i class="fas fa-hand-point-right"></i></span>
+                                Express flavorable healthy ice creams
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </div>
-    </div>
-    <!-- boostrap scripts -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-</body>
-
-</html>
+    
+    
+        <!-- boostrap script -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            })
+        </script>
+    </body>
+    
+    </html>

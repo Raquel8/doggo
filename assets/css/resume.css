@@ -1,23 +1,88 @@
+/* navigation custom styling */
+.customNavBg {
+    background-color: black !important;
+    padding-top: 0 !important;
+    object-fit: cover;
+}
+
+.customNavBg>a.navbar-brand:hover {
+    color: white
+}
+
+.customNavBg li {
+    margin-right: 20px;
+}
+
+.customNavBg li.nav-item.active>a {
+    color: orange;
+    font-weight: bold;
+}
+
+.customNavBg a {
+    color: white;
+}
+
+.customNavBg li>a:hover {
+    color: orange;
+    text-decoration: unset;
+    font-weight: bold;
+    transform: scale(1.01);
+}
+
+.customNavBg a.dropdown-item {
+    color: black;
+    background-color: transparent;
+}
+
+.customNavBg a.dropdown-item:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+/*footer*/
+footer {
+    padding: 10px;
+    background: black;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
 body {
     background-color: lavender !important;
 }
 
 .resume {
-    background: rgba(128, 66, 200, 0.438);
-    background: linear-gradient(90deg, rgba(128, 66, 200, 0.548) 0%, rgba(47, 81, 101, 0.541) 31%, rgba(54, 95, 115, 0.486) 89%, rgba(101, 163, 77, 0.657) 100%);
+    background: peachpuff !important;
     margin-top: 3vw;
     margin-bottom: 100px;
     padding: 0 20px 30px 20px;
 }
 
-/*Avatar*/
+/*ResumeAvatar*/
+.customContainer {
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0 20px 30px 20px;
+}
 
-.avatarImage {
-    border-radius: 50%;
-    width: 25vw;
-    height: 25vw;
-    transform: translateX(15vw) translateY(-18vw) !important;
-    object-fit: cover;
+.topSection,
+.middleSection,
+.bottomSection {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.experience,
+.education,
+.funFactSection {
+    margin-top: 40px
 }
 
 .avataContainer div {
@@ -25,62 +90,182 @@ body {
     justify-content: center;
 }
 
-.name>h1 {
-    transform: translateX(10vw);
-    font-family: 'Charm', cursive;
-    font-weight: 100;
-    font-size: 8vw;
-}
-
-.joke {
-    background-color: rgba(255, 255, 255, 0.397);
+.avataImage {
     border-radius: 50%;
-    padding: 8%;
-    transform: translateX(2vw);
+    width: 150px;
+    height: 150px;
+    transform: translateY(-75px);
 }
 
-.joke>h4 {
+.headlineTitle h1 {
     text-align: center;
-    font-size: 2.5vw;
+    transform: translateY(-50px);
+    text-transform: uppercase;
 }
 
-.bubs>span {
-    font-size: 9vw;
-    z-index: 2;
-    transform: translateX(18vw) translateY(-3vw);
+.headlineTitle span {
+    color: orange;
+    font-weight: bold;
+    letter-spacing: 15px;
 }
 
-.bahtum {
-    margin-top: -20vw;
+/* hr styling */
+hr {
+    border-color: orange !important;
 }
 
-.bottomSection {
+hr.firstHr {
+    transform: translateY(-30px);
+}
+
+.experience hr {
+    margin-right: 30px;
+}
+
+/* ==== Middle Section ==== */
+.sectionTitle {
+    color: pink;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.subSectionBox {
+    margin: 20px 0;
+}
+
+/* Education */
+.education .subSectionBox {
+    margin-right: 30px;
+    align-items: center;
+}
+
+.education .subSectionBox div:first-child>p {
+    font-weight: bold;
+    color: pink;
+}
+
+.eduDesBox {
+    background-color: rgb(103, 151, 31);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.eduDesBox p,
+.experience p,
+.education .subSectionBox p {
+    margin-bottom: 0;
+}
+
+/* Experience */
+.experience .subSectionBox div.row {
+    align-items: center;
+}
+
+.experience div.subSectionBox div.col-3 p:first-child {
+    color: #34af95;
+}
+
+p.year {
+    font-weight: lighter;
+    color: gray;
+    font-style: italic;
+}
+
+.experience .jobTitle {
+    font-weight: bold;
+    color: orange;
+}
+
+/* fun fact section */
+.funFact {
+    justify-content: space-between;
+}
+
+.funFact span {
+    padding-right: 10px;
+    color: #34af95;
+    font-size: 20px;
+}
+
+/* contact */
+.contact i {
+    font-size: 20px;
+    color: #34af95;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/* skills */
+.technicalSkills p,
+.softSkills p {
+    background-color: orange;
+    padding: 10px 5px;
+    border-radius: 10px;
+    color: white;
     text-align: center;
-    margin-top: 0vw;
-    margin-bottom: 5vw;
 }
 
-.contact {
-    height: 20vw;
-    background-color: rgba(255, 255, 255, 0.397);
-    border-radius: 50%;
+.softSkills p {
+    background: #0e3776;
+}
+
+/* hobbie sections */
+.hobbies p {
+    background-color: goldenrod;
+    padding: 10px 5px;
     text-align: center;
-    transform: translateY(8vw);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
-.contact>div {
-    transform: translateY(-4vw);
-    height: 4vw;
+/* === bottom section ===*/
+.bottomSection .projectSection {
+    align-items: center;
 }
 
-h5 {
-    font-size: 3vw !important;
+.projectSection>div p {
+    color: orange;
+    font-weight: bold;
 }
 
-.cntbtn>p {
-    margin-top: -2vw;
+.projectSection>div a p:hover {
+    color:goldenrod;
 }
 
-p {
-    font-size: 2vw !important;
+
+.projectSection>div a:hover {
+    text-decoration: none;
+}
+
+.projectSection ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projectSection ul>li i {
+    color:goldenrod;
+    margin-right: 5px;
+}
+
+
+/* MEDIA QUERIES */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .experience p.description {
+        display: none;
+    }
+
+    .experience hr {
+        margin-right: 0;
+    }
+
+    .education .subSectionBox {
+        margin-right: 0;
+    }
+
+    .experience .jobTitle {
+        float: right;
+    }
 }
