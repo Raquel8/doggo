@@ -1,0 +1,86 @@
+body {
+    background-color: lavender !important;
+}
+
+.resume {
+    background: rgba(128, 66, 200, 0.438);
+    background: linear-gradient(90deg, rgba(128, 66, 200, 0.548) 0%, rgba(47, 81, 101, 0.541) 31%, rgba(54, 95, 115, 0.486) 89%, rgba(101, 163, 77, 0.657) 100%);
+    margin-top: 3vw;
+    margin-bottom: 100px;
+    padding: 0 20px 30px 20px;
+}
+
+/*Avatar*/
+
+.avatarImage {
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    transform: translateX(15vw) translateY(-18vw) !important;
+    object-fit: cover;
+}
+
+.avataContainer div {
+    display: flex;
+    justify-content: center;
+}
+
+.name>h1 {
+    transform: translateX(10vw);
+    font-family: 'Charm', cursive;
+    font-weight: 100;
+    font-size: 8vw;
+}
+
+.joke {
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 50%;
+    padding: 8%;
+    transform: translateX(2vw);
+}
+
+.joke>h4 {
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.bubs>span {
+    font-size: 9vw;
+    z-index: 2;
+    transform: translateX(18vw) translateY(-3vw);
+}
+
+.bahtum {
+    margin-top: -20vw;
+}
+
+.bottomSection {
+    text-align: center;
+    margin-top: 0vw;
+    margin-bottom: 5vw;
+}
+
+.contact {
+    height: 20vw;
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 50%;
+    text-align: center;
+    transform: translateY(8vw);
+}
+
+.contact>div {
+    transform: translateY(-4vw);
+    height: 4vw;
+}
+
+h5 {
+    font-size: 3vw !important;
+}
+
+.cntbtn>p {
+    margin-top: -2vw;
+}
+
+p {
+    font-size: 2vw !important;
+}

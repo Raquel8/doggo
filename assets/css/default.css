@@ -1,0 +1,48 @@
+/* navigation custom styling */
+customNavBg {
+    background-color: #dace2f !important;
+    padding-top: 0 !important;
+    object-fit: cover;
+}
+.customNavBg>a.navbar-brand:hover {
+    color: white
+}
+.customNavBg li {
+    margin-right: 20px;
+}
+.customNavBg li.nav-item.active>a {
+    color: orange;
+    font-weight: bold;
+}
+.customNavBg a {
+    color: white;
+}
+.customNavBg li>a:hover {
+    color: orange;
+    text-decoration: unset;
+    font-weight: bold;
+    transform: scale(1.01);
+}
+.customNavBg a.dropdown-item {
+    color: #d3ba2a;
+    background-color: transparent;
+}
+
+.customNavBg a.dropdown-item:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+/*footer*/
+footer {
+    padding: 10px;
+    background: #e4d01f;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
