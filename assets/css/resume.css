@@ -1,6 +1,6 @@
 /* navigation custom styling */
 body {
-    background-image: url("file:///Users/raquel/Desktop/doggo/assets/images/nature.JPG");
+    background-image: url("/assets/images/nature.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
