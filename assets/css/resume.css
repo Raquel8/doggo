@@ -66,10 +66,10 @@ body {
 
 /*ResumeAvatar*/
 .customContainer {
-    background-color: white;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 0 20px 30px 20px;
+    background-color: rgba(185, 114, 0, 0.29) !important;;
+    margin-top: 150px;
+    margin-bottom: 300px;
+    padding:  40px 30px 40px;
 }
 
 .topSection,
@@ -87,13 +87,13 @@ body {
 
 .avataContainer div {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .avataImage {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    border-radius: 5%;
+    width: 200x;
+    height: 300px;
     transform: translateY(-75px);
 }
 
@@ -124,7 +124,7 @@ hr.firstHr {
 
 /* ==== Middle Section ==== */
 .sectionTitle {
-    color: pink;
+    color: brown;
     text-transform: uppercase;
     font-weight: bold;
 }
