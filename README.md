@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Required Meta Tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home Page</title>
+    <!--CSS File-->
+    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="resume.css">
+    <!--Bootstrap Stylesheet-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/938a18ead6.js" crossorigin="anonymous"></script>
+    <!--w3 schools-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+
+<body id="toTop" data-spy="scroll" data-target="#toTop" data-offset="50">
+    <!-- BS navbar -->
+    <nav class="navbar navbar-expand-lg customNavBg">
+        <a class="navbar-brand" href="index.html"><b>VCD 5D</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#customNavBg"
+            aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="bars" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                    class="svg-inline--fa fa-cheeseburger fa-w-16 fa-fw fa-lg">
+                    <path fill="currentColor"
+                        d="M352 176a16 16 0 1 0-16-16 16 16 0 0 0 16 16zm-96-32a16 16 0 1 0-16-16 16 16 0 0 0 16 16zm-96 32a16 16 0 1 0-16-16 16 16 0 0 0 16 16zm352 112a79.33 79.33 0 0 0-28.1-60.4 8.78 8.78 0 0 0 1.2-1.5 72.49 72.49 0 0 0 .6-75.4C442.3 78.7 352.19 32.1 256 32c-96.1.1-186.31 46.7-229.71 118.7a72.45 72.45 0 0 0 .6 75.4 15.76 15.76 0 0 0 1.2 1.5 79.35 79.35 0 0 0-9.3 111.8 78.09 78.09 0 0 0 15 13.7c-.7 2.8-1.7 5.5-1.7 8.5v34.7a83.73 83.73 0 0 0 83.7 83.7h280.6a83.8 83.8 0 0 0 83.71-83.7v-34.7c0-3-1.1-5.7-1.7-8.5A80 80 0 0 0 512 288zM67.37 175.5c34.9-57.9 109-95.4 188.61-95.5 79.71.1 153.81 37.6 188.72 95.5a24.51 24.51 0 0 1-.2 25.2c-2.9 4.7-7.41 7.4-12.21 7.4H79.67c-4.8 0-9.3-2.7-12.2-7.4a24.73 24.73 0 0 1-.1-25.2zM432 396.3a35.72 35.72 0 0 1-35.7 35.7H115.67A35.72 35.72 0 0 1 80 396.3v-25.6h352zm0-76.3H80a32 32 0 0 1 0-64h144l96 48 96-48h16a32 32 0 1 1 0 64z"
+                        class="words"></path>
+                </svg>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="customNavBg">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Contact</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="mailto: lariosr29@hotmail.com">Email</a>
+                        <a class="dropdown-item" href="https://github.com/raquel8" target="_blank">Github page</a>
+                        <a class="dropdown-item" href="https://raquel8.github.io" target="_blank">VCD 5d website</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-md-0">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+    </nav>
+
+    <!-- fixed footer -->
+    <a href="index.html">
+        <footer>
+            <p>This is sticky footer</p>
+        </footer>
+    </a>
+
+
+    <!--Resumae-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- favicon -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    
+        <title>Sennior Care Final</title>
+        <!-- local style sheet -->
+        <link rel="stylesheet" href="assets/css/defaultStyle.css" type="text/css" />
+        <link rel="stylesheet" href="assets/css/resume.css" type="text/css" />
+        <!-- bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/938a18ead6.js" crossorigin="anonymous"></script>
+    
+    </head>
+    
+    <body>
+        <!-- resssume section -->
+        <div class="container customContainer">
+            <section class="topSection">
+                <div class="row avataContainer">
+                    <div class="col-12">
+                        <a href="https://raquel8.github.io/" target="_blank"><img src="file:///Users/raquel/Desktop/doggo/assets/images/avata.jpg" class="avataImage" /></a>
+        
+                    </div>
+                </div>
+    
+                <div class="row headlineTitle">
+                    <div class="col-12">
+                        <h1>
+                            HI,
+                            <br>
+                            <span>My name is Raquel Larios</span>
+                        </h1>
+    
+                    </div>
+                </div>
+            </section>
+    
+            <hr class="firstHr" />
+    
+            <section class="middleSection">
+                <div class="row">
+                    <!-- left handside -->
+                    <div class="col-12 col-md-7 leftSubContainer">
+                        <!-- about me  -->
+                        <div class="aboutSection">
+                            <h5 class="sectionTitle">// About Me</h5>
+                            <p>
+                                I am an UX/UI developer with professional background in Graphic Deisgn.
+                                <br>
+                                Strong focus on front-end developemnt and iOS app development in Swift and hyprid apps
+                                development in React Native
+                            </p>
+                        </div>
+    
+                        <!-- education -->
+                        <div class="education">
+                            <h5 class="sectionTitle">// Education</h5>
+                            <div class="row subSectionBox">
+                                <div class="col-3">
+                                    <p>2018</p>
+                                </div>
+    
+                                <div class="col-9 eduDesBox">
+                                    <p><b>Google</b></p>
+                                    <p>UX/UI developemnt</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- experience  -->
+                        <div class="experience">
+                            <h5 class="sectionTitle">// experience</h5>
+                            <div class="subSectionBox">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <p><b>Thoughtbot</b></p>
+                                        <p class="year">2017-2018</p>
+                                    </div>
+    
+                                    <div class="col-9">
+                                        <p class="jobTitle">UX Designer</p>
+                                        <p class="description">Creating amazing UX/UI experiences for clients around the
+                                            world</p>
+                                    </div>
+                                </div>
+    
+                                <hr />
+    
+                                <div class="row">
+                                    <div class="col-3">
+                                        <p><b>Apple Store</b></p>
+                                        <p class="year">2015-2017</p>
+                                    </div>
+    
+                                    <div class="col-9">
+                                        <p class="jobTitle">Genius Bar</p>
+                                        <p class="description">Fixed a variety of apple device issues for custom</p>
+                                    </div>
+                                </div>
+    
+                                <hr />
+    
+                                <div class="row">
+                                    <div class="col-3">
+                                        <p><b>Whole Foods</b></p>
+                                        <p class="year">2013-2015</p>
+                                    </div>
+    
+                                    <div class="col-9">
+                                        <p class="jobTitle">Cashier</p>
+                                        <p class="description">Rang up customers</p>
+                                    </div>
+                                </div>
+    
+                                <hr />
+    
+                                <div class="row">
+                                    <div class="col-3">
+                                        <p><b>Starbucks</b></p>
+                                        <p class="year">2010-2013</p>
+                                    </div>
+    
+                                    <div class="col-9 ">
+                                        <p class="jobTitle">Barista</p>
+                                        <p class="description">Make some awesome lattes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- fun fact -->
+                        <div class="funFactSection">
+                            <h5 class="sectionTitle">// fun facts</h5>
+                            <div class="row funFact">
+                                <div class="col-12 col-md-6">
+                                    <p>
+                                        <span><i class="fas fa-guitar"></i></span>
+                                        I like to watch movies
+                                    </p>
+                                </div>
+                                <div class="col-12 d-md-none">
+                                    <hr />
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <p>
+                                        <span><i class="fas fa-running"></i></span>
+                                        I can run really fast
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- right handside -->
+                    <div class="col-12 col-md-5 rightSubContainer">
+                        <!-- contact -->
+                        <h5 class="sectionTitle">// Contact</h5>
+                        <div class="row subSectionBox contact">
+                            <div class="col">
+                                <a href="tel:(626) 559-4462" class="btn" data-toggle="tooltip" data-placement="top"
+                                    title="(626) 559-4462">
+                                    <p>
+                                        <span><i class="fas fa-phone-square"></i></span>
+                                        Phone
+                                    </p>
+                                </a>
+                            </div>
+    
+                            <div class="col">
+                                <a href="mailto: lariosr29@hotmail.com" class="btn" data-toggle="tooltip" data-placement="top"
+                                    title="lariosr29@hotmail.com">
+                                    <p>
+                                        <span><i class="fas fa-envelope-square"></i></span>
+                                        Email
+                                    </p>
+                                </a>
+                            </div>
+    
+                            <div class="col">
+                                <a href="https://github.com/vcd5dCpp" target="_blank" class="btn" data-toggle="tooltip"
+                                    data-placement="top" title="https://github.com/vcd5dCpp">
+                                    <p>
+                                        <span><i class="fab fa-github-square"></i></span> Github
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <!-- skills -->
+                        <div class="row">
+                            <div class="col-12 col-md-7 technicalSkills">
+                                <h5 class="sectionTitle">// Technical Skills</h5>
+                                <div class="row subSectionBox">
+                                    <div class="col-6">
+                                        <p>UX/UI</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>Adobe XD</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>Adobe Illustrator</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>Adobe Photoshop</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>Adobe InDesign</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>Git Commands</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p>bootstrap</p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-5 softSkills">
+                                <h5 class="sectionTitle">// Soft Skills</h5>
+                                <div class="subSectionBox">
+                                    <p>Organizing</p>
+                                    <p>Time Management</p>
+                                    <p>Public Speaking</p>
+                                    <p>Team Work</p>
+                                    <p>Fast Learner</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- hobiies -->
+                        <div class=" hobbies">
+                            <h5 class="sectionTitle">// hobbies</h5>
+                            <div class="row subSectionBox">
+                                <div class="col-6 col-md-4">
+                                    <p>Cooking</p>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <p>Drawing</p>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <p>Reading</p>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <p>Playing Videogames</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="bottomSection">
+                <h5 class="sectionTitle">// Projects</h5>
+                <div class="row projectSection">
+                    <div class="col-md-3">
+                        <a href="index.html"><p>Doggo</p></a>
+                    </div>
+    
+                    <div class="col-md-9">
+                        <ul>
+                            <li>
+                                <span><i class="fas fa-hand-point-right"></i></span>
+                                Create Sitemap for brainstorm web page and navigation flow
+                            </li>
+                            <li>
+                                <span><i class="fas fa-hand-point-right"></i></span>
+                                Create low-fi wireframe for resposive structure
+                            </li>
+                            <li>
+                                <span><i class="fas fa-hand-point-right"></i></span>
+                                Create UI Style Guide/Design System to maintain a consisten identity throughout the
+                                website
+                            </li>
+                            <li>
+                                <span><i class="fas fa-hand-point-right"></i></span>
+                                Create User Persona to target right audience
+                            </li>
+                            <li>
+                                <span><i class="fas fa-hand-point-right"></i></span>
+                                Create hi-fi interactive & responsive prototypes using Adobe XD
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <hr />
+    
+                <div class="row projectSection">
+                    <div class="col-md-3">
+                        <p>Polar Puff</p>
+                    </div>
+    
+                    <div class="col-md-9">
+                        <ul>
+                            <li>
+                                <span><i class="fas fa-hand-point-right"></i></span>
+                                Redesining posters for the ice cream store
+                            </li>
+                            <li>
+                                <span><i class="fas fa-hand-point-right"></i></span>
+                                Express flavorable healthy ice creams
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    
+    
+        <!-- boostrap script -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            })
+        </script>
+    </body>
+    
+    </html>
