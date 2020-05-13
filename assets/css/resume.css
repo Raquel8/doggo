@@ -84,7 +84,7 @@ footer {
 }
 
 .avataImage {
-    border-radius: 50%;
+    border-radius: 100%;
     width: 150px;
     height: 150px;
     transform: translateY(-75px);
@@ -99,7 +99,8 @@ footer {
 .headlineTitle span {
     color: #af34ad;
     font-weight: thin;
-    letter-spacing: 18px;
+	letter-spacing: 18px;
+	font-style: italic;
 }
 hr.firstHr {
     transform: translateY(-30px);
@@ -111,9 +112,9 @@ hr.firstHr {
 
 /* ==== Middle Section ==== */
 .sectionTitle {
-    color: rgb(255, 0, 187);
+    color: rgb(0, 255, 153);
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: thin;
 }
 
 .subSectionBox {
@@ -121,9 +122,10 @@ hr.firstHr {
 }
 
 /* Education */
-.education .subSectionBox {
+. {
     margin-right: 30px;
-    align-items: center;
+	align-items: center;
+	color: white;
 }
 
 .education .subSectionBox div:first-child>p {
@@ -155,7 +157,7 @@ hr.firstHr {
 
 p.year {
     font-weight: lighter;
-    color: gray;
+    color: white;
     font-style: italic;
 }
 
@@ -199,7 +201,6 @@ p.year {
 
 /* hobbie sections */
 .hobbies p {
-    background-color: red;
     padding: 10px 5px;
     text-align: center;
     color: white;
