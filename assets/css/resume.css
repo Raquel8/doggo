@@ -121,7 +121,10 @@ hr.firstHr {
 	font-weight: thin;
 	font-family: monospace
 }
-
+.sectionTitle2{
+	color: white;
+}
+	
 /* Education */
 .subSectionBox {
 	margin: center;
@@ -184,21 +187,25 @@ p.year {
 	font-size: 20px;
 	color: #af34ad;
 	font-size: 20px;
-	margin-right: 5px;
+	margin: center;
 }
 
 /* skills */
 .technicalSkills p,
 .softSkills p {
-	background-color: rgb(255, 0, 187);
-	padding: 10px 10pxx;
-	border-radius: 20px;
+	background-color: rgb(0, 255, 153);
+	padding: 10px;
 	color: white;
+	border-radius: 10px;
 	text-align: center;
 }
 
 .softSkills p {
-	background: #34af95;
+	background-color: rgb(0, 255, 247);
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
 }
 
 /* hobbie sections */
@@ -208,6 +215,7 @@ p.year {
 	color: white;
 	font-weight: bold;
 	border-radius: 10px;
+	margin:center;
 }
 
 /* === bottom section ===*/
