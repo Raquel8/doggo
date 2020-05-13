@@ -1,7 +1,7 @@
 /* navigation custom styling */
 body {
     background-image: url("/assets/images/nature.JPG")!important;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-position-x: center;
 }
@@ -58,222 +58,7 @@ footer {
     color: white;
     z-index: 2;
 }
-
-
-
-.resume {
-    background: peachpuff !important;
-    margin-top: 3vw;
-    margin-bottom: 100px;
-    padding: 0 20px 30px 20px;
-}
-
-/*ResumeAvatar*/
-.customContainer {
-    background-color: rgba(185, 114, 0, 0.507) !important;;
-    margin-top: 150px;
-    margin-bottom: 300px;
-    padding:  40px 30px 40px;
-}
-
-.topSection,
-.middleSection,
-.bottomSection {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.experience,
-.education,
-.funFactSection {
-    margin-top: 40px
-}
-
-.avataContainer div {
-    display: flex;
-    justify-content: left;
-}
-
-.avataImage {
-    border-radius: 5%;
-    width: 200x;
-    height: 300px;
-    transform: translateY(-75px);
-}
-
-.headlineTitle h1 {
-    text-align: center;
-    transform: translateY(-50px);
-    text-transform: uppercase;
-}
-
-.headlineTitle span {
-    color: orange;
-    font-weight: bold;
-    letter-spacing: 15px;
-}
-
-/* hr styling */
-hr {
-    border-color: orange !important;
-}
-
-hr.firstHr {
-    transform: translateY(-30px);
-}
-
-.experience hr {
-    margin-right: 30px;
-}
-
-/* ==== Middle Section ==== */
-.sectionTitle {
-    color: brown;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.subSectionBox {
-    margin: 20px 0;
-}
-
-/* Education */
-.education .subSectionBox {
-    margin-right: 30px;
-    align-items: center;
-}
-
-.education .subSectionBox div:first-child>p {
-    font-weight: bold;
-    color: pink;
-}
-
-.eduDesBox {
-    background-color: rgb(103, 151, 31);
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
-}
-
-.eduDesBox p,
-.experience p,
-.education .subSectionBox p {
-    margin-bottom: 0;
-}
-
-/* Experience */
-.experience .subSectionBox div.row {
-    align-items: center;
-}
-
-.experience div.subSectionBox div.col-3 p:first-child {
-    color: #34af95;
-}
-
-p.year {
-    font-weight: lighter;
-    color: gray;
-    font-style: italic;
-}
-
-.experience .jobTitle {
-    font-weight: bold;
-    color: orange;
-}
-
-/* fun fact section */
-.funFact {
-    justify-content: space-between;
-}
-
-.funFact span {
-    padding-right: 10px;
-    color: #34af95;
-    font-size: 20px;
-}
-
-/* contact */
-.contact i {
-    font-size: 20px;
-    color: #34af95;
-    font-size: 20px;
-    margin-right: 5px;
-}
-
-/* skills */
-.technicalSkills p,
-.softSkills p {
-    background-color: orange;
-    padding: 10px 5px;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-}
-
-.softSkills p {
-    background: #0e3776;
-}
-
-/* hobbie sections */
-.hobbies p {
-    background-color: goldenrod;
-    padding: 10px 5px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
-}
-
-/* === bottom section ===*/
-.bottomSection .projectSection {
-    align-items: center;
-}
-
-.projectSection>div p {
-    color: orange;
-    font-weight: bold;
-}
-
-.projectSection>div a p:hover {
-    color:goldenrod;
-}
-
-
-.projectSection>div a:hover {
-    text-decoration: none;
-}
-
-.projectSection ul {
-    list-style: none;
-    padding: 0;
-}
-
-.projectSection ul>li i {
-    color:goldenrod;
-    margin-right: 5px;
-}
-
-
-/* MEDIA QUERIES */
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-    .experience p.description {
-        display: none;
-    }
-
-    .experience hr {
-        margin-right: 0;
-    }
-
-    .education .subSectionBox {
-        margin-right: 0;
-    }
-
-    .experience .jobTitle {
-        float: right;
-    }
-}
-	:root {
+:root {
 		--web-view-ids: resume;
 	}
 	* {
@@ -3013,4 +2798,23 @@ p.year {
 		font-weight: normal;
 		font-size: 10px;
 		color: rgba(255,255,255,1);
-	}
+    }
+    /* MEDIA QUERIES */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .experience p.description {
+        display: none;
+    }
+
+    .experience hr {
+        margin-right: 0;
+    }
+
+    .education .subSectionBox {
+        margin-right: 0;
+    }
+
+    .experience .jobTitle {
+        float: right;
+    }
+}
