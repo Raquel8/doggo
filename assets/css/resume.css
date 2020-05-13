@@ -12,7 +12,7 @@ body {
 }
 
 .customNavBg>a.navbar-brand:hover {
-    color: white
+    color: black
 }
 
 .customNavBg li {
@@ -60,7 +60,7 @@ footer {
 }
 
 .customContainer {
-    background-color: rgba(255, 255, 255, 0.585);
+    background-color: black;
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 0 20px 30px 20px;
