@@ -59,8 +59,8 @@ footer {
     z-index: 2;
 }
 .mediaViewInfo {
-	--web-view-name: Web 1920 – 1;
-	--web-view-id: Web_1920___1;
+	--web-view-name: auto;
+	--web-view-id: auto;
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
 }
