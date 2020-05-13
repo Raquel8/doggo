@@ -1,7 +1,7 @@
 /* navigation custom styling */
 body {
     background-image: url("/assets/images/nature.JPG")!important;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
 }
@@ -97,16 +97,10 @@ footer {
 }
 
 .headlineTitle span {
-    color: #34af95;
-    font-weight: bold;
-    letter-spacing: 15px;
+    color: #af34ad;
+    font-weight: thin;
+    letter-spacing: 18px;
 }
-
-/* hr styling */
-hr {
-    border-color: #34af95 !important;
-}
-
 hr.firstHr {
     transform: translateY(-30px);
 }
@@ -156,7 +150,7 @@ hr.firstHr {
 }
 
 .experience div.subSectionBox div.col-3 p:first-child {
-    color: #34af95;
+    color: #af34ad;
 }
 
 p.year {
@@ -177,14 +171,14 @@ p.year {
 
 .funFact span {
     padding-right: 10px;
-    color: #34af95;
-    font-size: 20px;
+    color: #af34ad;
+    font-size: 15px;
 }
 
 /* contact */
 .contact i {
     font-size: 20px;
-    color: #34af95;
+    color: #af34ad;
     font-size: 20px;
     margin-right: 5px;
 }
@@ -219,7 +213,7 @@ p.year {
 }
 
 .projectSection > div p {
- color:#34af95;
+ color: #af34ad;
  font-weight: bold;
 }
 
