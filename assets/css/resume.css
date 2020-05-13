@@ -238,7 +238,7 @@ p.year {
 }
 
 .projectSection ul > li i {
-    color: red;
+    color: rgb(255, 0, 136);
     margin-right: 5px;
 }
 
@@ -261,7 +261,6 @@ p.year {
     .experience .jobTitle {
         float: right;
     }
-}
 }
     /* MEDIA QUERIES */
 /* Medium devices (landscape tablets, 768px and up) */
