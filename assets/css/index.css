@@ -1,8 +1,10 @@
 /* navigation custom styling */
-
-
-
-
+body {
+    background-image: url("/assets/images/nature.JPG") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
 .customNavBg>a.navbar-brand:hover {
     color: white
 }
