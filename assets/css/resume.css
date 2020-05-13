@@ -1,278 +1,282 @@
 /* navigation custom styling */
 body {
-    background-image: url("/assets/images/nature.JPG")!important;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
+	background-image: url("/assets/images/nature.JPG") !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
 }
+
 .customNavBg {
-    background-color: black !important;
-    padding-top: 0 !important;
-    object-fit: cover;
+	background-color: black !important;
+	padding-top: 0 !important;
+	object-fit: cover;
 }
 
 .customNavBg>a.navbar-brand:hover {
-    color: black
+	color: black
 }
 
 .customNavBg li {
-    margin-right: 20px;
+	margin-right: 20px;
 }
 
 .customNavBg li.nav-item.active>a {
-    color: orange;
-    font-weight: bold;
+	color: orange;
+	font-weight: bold;
 }
 
 .customNavBg a {
-    color: white;
+	color: white;
 }
 
 .customNavBg li>a:hover {
-    color: orange;
-    text-decoration: unset;
-    font-weight: bold;
-    transform: scale(1.01);
+	color: orange;
+	text-decoration: unset;
+	font-weight: bold;
+	transform: scale(1.01);
 }
 
 .customNavBg a.dropdown-item {
-    color: black;
-    background-color: transparent;
+	color: black;
+	background-color: transparent;
 }
 
 .customNavBg a.dropdown-item:hover {
-    color: orange;
-    text-decoration: underline;
+	color: orange;
+	text-decoration: underline;
 }
 
 /*footer*/
 footer {
-    padding: 10px;
-    background: black;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    height: 50px;
-    text-align: center;
-    color: white;
-    z-index: 2;
+	padding: 10px;
+	background: black;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	text-align: center;
+	color: white;
+	z-index: 2;
 }
 
 .customContainer {
-    background-color: black;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 0 20px 30px 20px;
+	background-color: black;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 0 20px 30px 20px;
 }
 
 .topSection,
 .middleSection,
 .bottomSection {
-    margin-left: 30px;
-    margin-right: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 .experience,
-.education, .funFactSection {
-    margin-top: 40px
+.education,
+.funFactSection {
+	margin-top: 40px
 }
 
 .avataContainer div {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .avataImage {
-    border-radius: 100%;
-    width: 150px;
-    height: 150px;
-    transform: translateY(-75px);
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+	transform: translateY(-75px);
 }
 
 .headlineTitle h1 {
-    text-align: center;
-    transform: translateY(-50px);
-    text-transform: uppercase;
+	text-align: center;
+	transform: translateY(-50px);
+	text-transform: uppercase;
 }
 
 .headlineTitle span {
-    color: #af34ad;
-    font-weight: thin;
+	color: #af34ad;
+	font-weight: thin;
 	letter-spacing: 18px;
 	font-style: italic;
 }
+
 hr.firstHr {
-    transform: translateY(-30px);
+	transform: translateY(-30px);
 }
 
 .experience hr {
-    margin-right: 30px;
+	margin-right: 30px;
 }
 
 /* ==== Middle Section ==== */
 .sectionTitle {
-    color: rgb(0, 255, 153);
-    text-transform: uppercase;
-    font-weight: thin;
+	color: rgb(0, 255, 153);
+	text-transform: uppercase;
+	font-weight: thin;
 }
 
 .subSectionBox {
-    margin: 20px 0;
+	margin: 20px 0;
 }
 
 /* Education */
 . {
-    margin-right: 30px;
+	margin-right: 30px;
 	align-items: center;
 	color: white;
 }
 
 .education .subSectionBox div:first-child>p {
-    font-weight: bold;
-    color: #34af95;
+	font-weight: bold;
+	color: #34af95;
 }
 
 .eduDesBox {
-    background-color: red;
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
+	background-color: red;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
 }
 
 .eduDesBox p,
 .experience p,
 .education .subSectionBox p {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 /* Experience */
 .experience .subSectionBox div.row {
-    align-items: center;
+	align-items: center;
 }
 
 .experience div.subSectionBox div.col-3 p:first-child {
-    color: #af34ad;
+	color: #af34ad;
 }
 
 p.year {
-    font-weight: lighter;
-    color: white;
-    font-style: italic;
+	font-weight: lighter;
+	color: white;
+	font-style: italic;
 }
 
 .experience .jobTitle {
-    font-weight: bold;
-    color:  rgb(255, 0, 187);
+	font-weight: bold;
+	color: rgb(255, 0, 187);
 }
 
 /* fun fact section */
 .funFact {
-    justify-content: space-between;
+	justify-content: space-between;
 }
 
 .funFact span {
-    padding-right: 10px;
-    color: #af34ad;
-    font-size: 15px;
+	padding-right: 10px;
+	color: #af34ad;
+	font-size: 15px;
 }
 
 /* contact */
 .contact i {
-    font-size: 20px;
-    color: #af34ad;
-    font-size: 20px;
-    margin-right: 5px;
+	font-size: 20px;
+	color: #af34ad;
+	font-size: 20px;
+	margin-right: 5px;
 }
 
 /* skills */
 .technicalSkills p,
 .softSkills p {
-    background-color:  rgb(255, 0, 187);
-    padding: 10px 5px;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
+	background-color: rgb(255, 0, 187);
+	padding: 10px 5px;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
 }
 
 .softSkills p {
-    background: #34af95;
+	background: #34af95;
 }
 
 /* hobbie sections */
 .hobbies p {
-    padding: 10px 5px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
+	padding: 10px 5px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
 }
 
 /* === bottom section ===*/
-.bottomSection .projectSection{
-    align-items: center;
+.bottomSection .projectSection {
+	align-items: center;
 }
 
-.projectSection > div p {
- color: #af34ad;
- font-weight: bold;
+.projectSection>div p {
+	color: #af34ad;
+	font-weight: bold;
 }
 
-.projectSection > div a p:hover {
-    color: red;
+.projectSection>div a p:hover {
+	color: red;
 }
 
 
-.projectSection > div a:hover {
-    text-decoration: none;
+.projectSection>div a:hover {
+	text-decoration: none;
 }
 
-.projectSection ul{
-    list-style: none;
-    padding: 0;
+.projectSection ul {
+	list-style: none;
+	padding: 0;
 }
 
-.projectSection ul > li i {
-    color: rgb(255, 0, 136);
-    margin-right: 5px;
+.projectSection ul>li i {
+	color: rgb(255, 0, 136);
+	margin-right: 5px;
 }
 
 
 /* MEDIA QUERIES */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    .experience p.description {
-        display: none;
-    }
+	.experience p.description {
+		display: none;
+	}
 
-    .experience hr {
-        margin-right: 0;
-    }
+	.experience hr {
+		margin-right: 0;
+	}
 
-    .education .subSectionBox {
-        margin-right: 0;
-    }
+	.education .subSectionBox {
+		margin-right: 0;
+	}
 
-    .experience .jobTitle {
-        float: right;
-    }
+	.experience .jobTitle {
+		float: right;
+	}
 }
-    /* MEDIA QUERIES */
+
+/* MEDIA QUERIES */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    .experience p.description {
-        display: none;
-    }
+	.experience p.description {
+		display: none;
+	}
 
-    .experience hr {
-        margin-right: 0;
-    }
+	.experience hr {
+		margin-right: 0;
+	}
 
-    .education .subSectionBox {
-        margin-right: 0;
-    }
+	.education .subSectionBox {
+		margin-right: 0;
+	}
 
-    .experience .jobTitle {
-        float: right;
-    }
+	.experience .jobTitle {
+		float: right;
+	}
 }
