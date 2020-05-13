@@ -1,4 +1,10 @@
 /* navigation custom styling */
+body {
+    background-image: url("/assets/images/nature.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
 .customNavBg {
     background-color: black !important;
     padding-top: 0 !important;
@@ -52,9 +58,3 @@ footer {
     color: white;
     z-index: 2;
 }
-
-body {
-    background-image: url("/assets/images/nature.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
