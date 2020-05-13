@@ -69,8 +69,8 @@ footer {
 .topSection,
 .middleSection,
 .bottomSection {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .experience,
@@ -111,7 +111,7 @@ hr.firstHr {
 
 /* ==== Middle Section ==== */
 .sectionTitle {
-    color: orange;
+    color: rgb(255, 0, 187);
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -161,7 +161,7 @@ p.year {
 
 .experience .jobTitle {
     font-weight: bold;
-    color: orange;
+    color:  rgb(255, 0, 187);
 }
 
 /* fun fact section */
@@ -186,7 +186,7 @@ p.year {
 /* skills */
 .technicalSkills p,
 .softSkills p {
-    background-color: orange;
+    background-color:  rgb(255, 0, 187);
     padding: 10px 5px;
     border-radius: 10px;
     color: white;
