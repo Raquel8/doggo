@@ -103,6 +103,7 @@ footer {
 	font-weight: thin;
 	letter-spacing: 18px;
 	font-style: italic;
+	font-family: monospace;
 }
 
 hr.firstHr {
@@ -110,7 +111,7 @@ hr.firstHr {
 }
 
 .experience hr {
-	margin-right: 30px;
+	margin: center;
 }
 
 /* ==== Middle Section ==== */
@@ -118,15 +119,12 @@ hr.firstHr {
 	color: rgb(0, 255, 153);
 	text-transform: uppercase;
 	font-weight: thin;
-}
-
-.subSectionBox {
-	margin: 20px 0;
+	font-family: monospace
 }
 
 /* Education */
-. {
-	margin-right: 30px;
+.subSectionBox {
+	margin: center;
 	align-items: center;
 	color: white;
 }
@@ -152,6 +150,7 @@ hr.firstHr {
 /* Experience */
 .experience .subSectionBox div.row {
 	align-items: center;
+	margin: center;
 }
 
 .experience div.subSectionBox div.col-3 p:first-child {
@@ -175,7 +174,7 @@ p.year {
 }
 
 .funFact span {
-	padding-right: 10px;
+	padding: 10px;
 	color: #af34ad;
 	font-size: 15px;
 }
@@ -192,8 +191,8 @@ p.year {
 .technicalSkills p,
 .softSkills p {
 	background-color: rgb(255, 0, 187);
-	padding: 10px 5px;
-	border-radius: 10px;
+	padding: 10px 10pxx;
+	border-radius: 20px;
 	color: white;
 	text-align: center;
 }
@@ -240,16 +239,15 @@ p.year {
 	margin-right: 5px;
 }
 
-
 /* MEDIA QUERIES */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
 	.experience p.description {
-		display: none;
+		display: center;
 	}
 
 	.experience hr {
-		margin-right: 0;
+		margin-inline-end: 0;
 	}
 
 	.education .subSectionBox {
@@ -257,26 +255,6 @@ p.year {
 	}
 
 	.experience .jobTitle {
-		float: right;
-	}
-}
-
-/* MEDIA QUERIES */
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-	.experience p.description {
-		display: none;
-	}
-
-	.experience hr {
-		margin-right: 0;
-	}
-
-	.education .subSectionBox {
-		margin-right: 0;
-	}
-
-	.experience .jobTitle {
-		float: right;
+		float: middle;
 	}
 }
