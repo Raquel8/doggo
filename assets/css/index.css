@@ -1,9 +1,7 @@
 /* navigation custom styling */
 body {
-    background-color: rgb(1, 56, 80);
-    background-repeat: repeat;
-    background-size: cover;
-    background-position-x: center;
+    background-color: rgb(1, 56, 80)!important;
+
 }
 .customNavBg>a.navbar-brand:hover {
     color: white
