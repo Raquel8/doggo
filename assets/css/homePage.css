@@ -1,9 +1,6 @@
 /* navigation custom styling */
 body {
-    background-image: url("/assets/images/nature.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
+     background-color: rgb(1, 56, 80)!important;
 }
 .customNavBg {
     background-color: black !important;
