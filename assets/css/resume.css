@@ -194,17 +194,17 @@ p.year {
 .technicalSkills p,
 .softSkills p {
 	background-color: rgb(0, 255, 153);
-	padding: 10px;
-	color: white;
-	border-radius: 10px;
+	padding: 40px;
+	color: black;
+	border-radius: auto;
 	text-align: center;
 }
 
 .softSkills p {
 	background-color: rgb(0, 255, 247);
-	padding: 10px;
-	color: white;
-	border-radius: 10px;
+	padding: 40px;
+	color: black;
+	border-radius: auto;
 	text-align: center;
 }
 
